@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input{
+  padding-top: 50px;
+  padding: 10px 15px;
+  border: 2px solid darkgoldenrod;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.box{
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 300px); */
+  gap: 30px;
+}
+.row{
+  width: 825px;
+  border: 2px solid salmon;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+
